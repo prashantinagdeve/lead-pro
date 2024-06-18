@@ -1,0 +1,99 @@
+
+.dashboard {
+    padding: 24px;
+    background-color: #f4f5f7;
+    min-height: 100vh;
+  }
+  
+  .dashboard-card {
+    background-color: #ffffff;
+    color: #333;
+    text-align: left;
+    /* padding: 12px; */
+    height: 100px;
+    /* width: 120px; */
+    /* border: 1px solid red; */
+  }
+  
+  .dashboard-card h6 {
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .dashboard-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+    
+    
+  }
+  
+  .dashboard-chart {
+    padding: 16px;
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid #e0e0e0; /* Lighter border color */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* width: 70%; Use percentage for responsiveness */
+    max-width: 900px; /* Optional: Set a maximum width to prevent excessive stretching */
+    margin: 16px auto; /* Center align and add spacing around the chart */
+   
+  }
+   
+   
+  
+ 
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .dashboard-header h6 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .card {
+   
+    padding: 16px;
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid #e0e0e0; /* Lighter border color */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* width: 70%; Use percentage for responsiveness */
+    max-width: 900px; /* Optional: Set a maximum width to prevent excessive stretching */
+    margin: 16px auto; /* Center align and add spacing around the chart */
+   
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    
+  }
+  
+  .action-icons {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .row {
+    margin-bottom: 8px;
+    
+  }
+  
+  .row:last-child {
+    margin-bottom: 0;
+  }
+  
+  .grid-container {
+    margin-bottom: 16px;
+  }
+  

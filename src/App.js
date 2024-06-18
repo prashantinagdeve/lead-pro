@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { CssBaseline, Box } from '@mui/material';
+import Sidebar from './components/Sidebar';
+import Dashboard from './components/Dashboard';
+import ExpenseCategories from './components/ExpenseCategories';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <BrowserRouter>
+      <Box sx={{ display: 'flex' }}>
+        <CssBaseline />
+        <Sidebar />
+        <Box
+          component="main"
+          sx={{ flexGrow: 1, bgcolor: 'background.default', p: 3 }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <Switch>
+            <Route exact path="/" component={Dashboard} />
+            <Route path="/expense-categories" component={ExpenseCategories} />
+            
+          </Switch>
+        </Box>
+      </Box>
+    </BrowserRouter>
   );
 }
 

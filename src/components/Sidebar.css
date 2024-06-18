@@ -1,0 +1,41 @@
+/* src/components/Sidebar.css */
+.sidebar {
+    width: 240px;
+    flex-shrink: 0;
+  }
+  
+  .sidebar .MuiDrawer-paper {
+    width: 240px;
+    box-sizing: 'border-box';
+    background-color: #0d1b2a;
+    color: #fff;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background-color: #14213d;
+    color: #fff;
+  }
+  
+  .sidebar-list {
+    padding: 0;
+  }
+  
+  .sidebar-list-item {
+    padding: 10px 16px;
+  }
+  
+  .sidebar-list-icon {
+    color: #fff;
+  }
+  
+  .sidebar-list-item:hover {
+    background-color: #FE5722 !important;
+  }
+  
+  .sidebar-list-item .MuiListItemText-primary {
+    font-size: 14px;
+  }
+  

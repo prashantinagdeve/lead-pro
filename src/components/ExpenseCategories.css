@@ -1,0 +1,36 @@
+/* ExpenseCategories.css */
+.header {
+    margin-top: 40px;
+  }
+  
+  .breadcrumb {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .no-data img {
+    margin-bottom: 16px;
+  }
+  
+  .no-data .MuiTypography-subtitle1 {
+    color: #aaa;
+  }
+  
+  .MuiTableCell-root {
+    padding: 16px;
+  }
+  
+  .MuiTableCell-head {
+    font-weight: bold;
+    background-color: #f5f5f5;
+  }
+  
+  .MuiButton-containedPrimary {
+    background-color: #1976d2;
+    color: #fff;
+  }
+  
+  .MuiButton-containedPrimary:hover {
+    background-color: #115293;
+  }
+  
